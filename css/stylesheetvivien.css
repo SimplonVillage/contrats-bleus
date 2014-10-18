@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'crumble';
+  src: url('/home/apprenti/Bureau/contrats-bleus/font/crumble.ttf');
+}
+
+
+h1 {
+	font-family: 'crumble', cursive;
+	font-size: 70px;
+	text-align: center;
+	color: 0F1963;
+}
+
+head {
+	
+}
+
+body { 
+	
+}
+
+.container {
+	letter-spacing: 10px;
+	text-align: center;
+}
+
+.locate {
+	background-image: none;
+}
+
+.locate:hover {
+	background-image: url('../img/plan.png');
+	opacity: 0.6; 
+    -webkit-transition: all 4.0s ease;
+	-moz-transition: all 4.0s ease;
+	-ms-transition: all 4.0s ease;
+	-o-transition: all 4.0s ease;
+	transition: all 0.8s ease; width: 15%; 
+	height: 22%;
+}
