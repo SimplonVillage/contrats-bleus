@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="css/stylesheetvivien.css"/>
+
+                                <!-- JQUERY-->
+    <script type="text/javascript" src="jquery-slider-master/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="jquery-slider-master/js/jssor.js"></script>
+    <script type="text/javascript" src="jquery-slider-master/js/jssor.slider.js"></script>
+<!-- _______________________________________________________________________ -->
+
+		<title> Les Contrats Bleus </title>
+		
+
+	</head>
+
+	
+	<body>
+
+    <div class="navbar">
+        <div class="navbar-fixed-top">
+         <div class="navbar-inner">
+          <div class="container">
+           <div class="raw">
+            <div class="col-md-4">
+              <span class="icon-bar">Localisation</span>
+            </div>
+            <div class="col-md-4">
+              <span class="icon-bar">About</span>
+            </div>
+            <div class="col-md-4">
+              <span class="icon-bar">Nous contacter</span>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+    </div>        
+   <!-- CONTRATS BLEUS -->
+    <div class="raw">
+      <div class="col-md-12"><h1> Les Contrats Bleus </h1></div>
+    </div>
+   <!-- CAROUSEL -->        
+  <div class="carousel">
+   <div class="raw">
+    <div class="col-md-12">
+
+                                      <!-- JQUERY SCRIPT -->
+      <script>
+
+        jQuery(document).ready(function ($) {
+            var options = {
+                $AutoPlay: true,
+
+                $PauseOnHover: true,                               //[Optional] Whether to pause when mouse over if a slideshow is auto playing, default value is false
+
+                $ArrowKeyNavigation: true,                    //Allows arrow key to navigate or not
+                $SlideWidth: 600,                                   //[Optional] Width of every slide in pixels, the default is width of 'slides' container
+                //$SlideHeight: 300,                                  //[Optional] Height of every slide in pixels, the default is width of 'slides' container
+                $SlideSpacing: 0,                           //Space between each slide in pixels
+                $DisplayPieces: 2,                                  //Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $ParkingPosition: 100,                                //The offset position to park slide (this options applys only when slideshow disabled).
+
+                $ArrowNavigatorOptions: {                       //[Optional] Options to specify and enable arrow navigator or not
+                    $Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 2,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+                }
+            };
+
+            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizes
+            function ScaleSlider() {
+                var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
+                if (parentWidth)
+                    jssor_slider1.$ScaleWidth(Math.min(parentWidth, 800));
+                else
+                    window.setTimeout(ScaleSlider, 30);
+            }
+
+            ScaleSlider();
+
+            if (!navigator.userAgent.match(/(iPhone|iPod|iPad|BlackBerry|IEMobile)/)) {
+                $(window).bind('resize', ScaleSlider);
+            }
+
+
+            //if (navigator.userAgent.match(/(iPhone|iPod|iPad)/)) {
+            //    $(window).bind("orientationchange", ScaleSlider);
+            //}
+            //responsive code end
+        });
+    </script>
+    <!-- Jssor Slider Begin -->
+    <!-- You can move inline styles to css file or css block. -->
+    <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 800px;
+        height: 300px; overflow: hidden;">
+        <!-- Slides Container -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 800px; height: 300px;
+            overflow: hidden;">
+            <div><img u="image" style="height:auto; width:auto; max-width:100%; max-height:100%;" src="img/Cheval" /></div>
+            <div><img u="image" style="height:auto; width:auto; max-width:100%; max-height:100%;" src="img/Equitation" /></div>
+            <div><img u="image" style="height:auto; width:auto; max-width:100%; max-height:100%;" src="img/ete" /></div>
+            <div><img u="image" style="height:auto; width:auto; max-width:100%; max-height:100%;" src="img/ski.jpg" /></div>
+            
+        </div>
+
+        <!-- Arrow Navigator Skin Begin -->
+        <style>
+            /* jssor slider arrow navigator skin 13 css */
+            /*
+            .jssora13l              (normal)
+            .jssora13r              (normal)
+            .jssora13l:hover        (normal mouseover)
+            .jssora13r:hover        (normal mouseover)
+            .jssora13ldn            (mousedown)
+            .jssora13rdn            (mousedown)
+            */
+            .jssora13l, .jssora13r, .jssora13ldn, .jssora13rdn {
+                position: absolute;
+                cursor: pointer;
+                display: block;
+                background: url(../img/a13.png) no-repeat;
+                overflow: hidden;
+            }
+
+            .jssora13l {
+                background-position: -10px -35px;
+            }
+
+            .jssora13r {
+                background-position: -70px -35px;
+            }
+
+            .jssora13l:hover {
+                background-position: -130px -35px;
+            }
+
+            .jssora13r:hover {
+                background-position: -190px -35px;
+            }
+
+            .jssora13ldn {
+                background-position: -250px -35px;
+            }
+
+            .jssora13rdn {
+                background-position: -310px -35px;
+            }
+        </style>
+        <!-- Arrow Left -->
+        <span u="arrowleft" class="jssora13l" style="width: 40px; height: 50px; top: 123px; left: 30px;">
+        </span>
+        <!-- Arrow Right -->
+        <span u="arrowright" class="jssora13r" style="width: 40px; height: 50px; top: 123px; right: 30px">
+        </span>
+        <!-- Arrow Navigator Skin End -->
+        <a style="display: none" href="http://www.jssor.com">javascript</a>
+    </div>
+    <!-- Jssor Slider End -->
+    </div>
+   </div>
+  </div>  
+    <script type="text/javascript">
+      function bascule ()
+      {
+        var etat = document.getElementById('div1').style.display;
+        var bouton = document.getElementById('afficheCache');
+
+        if (etat == 'none')
+        {
+          document.getElementById('div1').style.display='block';
+          bouton.value = 'Cacher la balise div';
+        }
+        else
+        {
+        document.getElementById('div1').style.display='none';
+        }
+
+    }
+    </script>
+
+</head>
+  <div><h2>Le Pôle petite enfance</h2>
+  <form>
+    <input type="btn-button" id="Le_Pôle_petite_enfance" style="width: 100%" onclick="bascule()" value="Le Pôle petite enfance"></form>  
+    <div id="div1" class="titre">
+  
+   <div class="loups">LA MAISON DES P’TITS LOUPS
+    MULTIACCUEIL DES 0 À 4 ANS
+     <p>La crèche est un lieu d’apprentissage et de socialisation pour l’enfant. Mais c’est avant tout
+  un lieu de plaisir. L’enfant doit s’y sentir bien et y passer des moments agréables.
+  L’équipe de professionnelles a défini 3 valeurs incontournables :
+      <ul>
+        <li>Le respect de l’autre</li>
+        <li>La vie en communauté</li>
+        <li>Le plaisir</li>
+        </ul>
+      </p>
+   </div>
+
+
+  <p>Financement de la CAF et la MSA dans le cadre de la Prestation de Service Unique.</p>
+
+  <p>9 salariés :
+La directrice, Emmanuelle CHAILLOU, un agent d’entretien
+et 7 professionnelles de la Petite Enfance.</p>
+
+
+
+  <div class="coccinelle">LA COCCINELLE
+  <p>Un lieu d’accueil, de rencontre et de jeux pour les enfants de la naissance à l’école maternelle. C’est un lieu de rencontre et de dialogue entre les enfants, les parents et les professionnels. Un espace pour prendre le temps d’accompagner l’enfant dans ses apprentissages, ses découvertes.</p>
+  </div>
+  <!--cadre collé à gauche en #FDD0A3 et 3 colonnes et 9 colonnes pour l'autre texte-->
+  
+  Les mardis
+  <!--les horaires sont à aligner à la droite du cadre-->
+  de 9h00 à 11h15
+  Les jeudis
+  de 13h30 à 16h00
+  <!--en italique-->
+  <span>Hors vacances scolaires</span>
+  
+
+ 
+<!--collé à droite-->
+Subventionné par la Caisse d’Allocation Familiale dans le cadre duLabel « Lieu d’Accueil Enfants Parents »
+
+Mise à disposition gratuite par le Conseil Général d’une Educatrice de Jeunes Enfants, d’une Infirmière et interventions d’une TISF de l'ADMR
+
+
+
+
+   
+    LE RELAIS D’ASSISTANT(E)S MATERNEL(LE)S
+
+    <p>Un lieu d’échanges, de rencontres, d’information, et de documentation au service des parents et futurs parents, des assistant(e)s maternel(le)s.</p>
+
+      <p>Subventionné par la Caisse d’Allocations Familiales</p>
+      <p>Responsable du RAM : Laëtitia SAWRY</p>
+    
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div><h2>Le Pôle Enfance</h2>
+LES ACCUEILS DE LOISIRS
+Un vrai mode de garde pour les enfants de 3 à 11 ans.
+
+<p>Accueil à la journée, avec de nombreuses activités menées par des animateurs permanents
+et vacataires, diplômés ou en cours de validation du Brevet d’Aptitude aux Fonctions d’Animateur (BAFA).</p>
+
+<p>L’ouverture d’un Accueil de Loisirs sans Hébergement dépend d’une habilitation délivrée par le Ministère des Sports, de la Jeunesse, de l’Education Populaire et de la Vie Associative, Direction Départementale de la Cohésion Sociale et de la Protection des Populations.</p>
+
+<p>Depuis 2006, l’association gère et développe les accueils de loisirs sur le territoire de la Communauté de Communes à toutes les périodes de vacances scolaires à part Noël et au mois d’Août.</p>
+<!--aligné à droite en italique-->
+<p>Ouvertures des inscriptions 3 semaines avant les vacances</p>
+
+<p>En 2009, nous avons développé les ouvertures aux mercredis, attribution des places en fonction de la
+situation familiale.</p>
+
+Répartition des ouvertures :
+
+Vacances de Février et de la Toussaint : Salle socioculturelle et école de Vaupillon
+Vacances d’Avril et le mois de Juillet : 
+Ecole des écureuils, château de La Loupe et école Rolland Garros (au mois de Juillet uniquement)
+Les Mercredis : Ecole des écureuils, château de La Loupe
+
+Financement de la CAF et la MSA dans le cadre de la Prestation de Service Unique.
+</div>
+Le Pôle Jeunesse
+
+    
+>>>>>>> 4e3415157d73581545d66271646e41d62a5e3319
+		
+	</body>
+</html>
