@@ -50,24 +50,26 @@ img {
     max-height:100%;
 }
 
-#volet {
+#volet , #volet_1 , #volet_2{
     width: 93%;
     padding: 10px;
     background: #6B9A49; color: #fff; 
     margin-top: 1%  
 }
-#volet a.ouvrir {
+
+#volet a.ouvrir , #volet a.fermer , #volet_1 a.ouvrir , #volet_1 a.fermer , #volet_2 a.ouvrir , #volet_2 a.fermer{
     padding: 10px 25px;
     background: #555;
     color: #fff;
     text-decoration: none;
 }
 
-#volet {
+#volet , #volet_1 , #volet_2 {
     position: relative;
     left: -100%; top: 55px;
 }
-#volet a.ouvrir , #volet a.fermer{
+
+#volet a.ouvrir , #volet a.fermer ,#volet_1 a.ouvrir , #volet_1 a.fermer ,#volet_2 a.ouvrir , #volet_2 a.fermer{
     position: absolute;
     right: -88px;
     top: 150px;
@@ -81,25 +83,25 @@ img {
     border-radius: 0 0 8px 8px;
 }
 
-#volet {
+#volet  , #volet_1 , #volet_2{
     -webkit-transition: all .5s ease-in;
     transition:.5s ease-in;
 }
 
-#volet:target {
+#volet:target , #volet_1:target , #volet_2:target {
     left: 0;
 }
 
-#volet a.fermer {
+#volet a.fermer , #volet_1 a.fermer ,#volet_2 a.fermer{
     display: none ;
 }
-#volet_clos:target #volet {
+#volet_clos:target #volet , #volet_clos_1:target #volet_1 , #volet_clos_2:target #volet_2 {
     left: -97%;
 }
 
-#volet:target a.ouvrir {
+#volet:target a.ouvrir , #volet_1:target a.ouvrir, #volet_2:target a.ouvrir{
     display: none;
 }
-#volet:target a.fermer {
+#volet:target a.fermer , #volet_1:target a.fermer, #volet_2:target a.fermer{
     display: block;
 }
