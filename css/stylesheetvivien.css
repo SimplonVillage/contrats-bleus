@@ -23,6 +23,7 @@ head {
 
 body {
     background-image: url(../img/background_snow.png);
+
 }
 
 .navbar-fixed-top {
@@ -53,7 +54,7 @@ img {
 #volet , #volet_1 , #volet_2{
     width: 93%;
     padding: 10px;
-    background: #6B9A49; color: #fff; 
+    background: rgba(28, 207, 36, 0.2); color: #fff; 
     margin-top: 1%  
 }
 
