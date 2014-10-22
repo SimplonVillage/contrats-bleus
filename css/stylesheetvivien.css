@@ -5,7 +5,6 @@ h1 {
 	font-family: 'Chewy', cursive;
 	font-size: 70px;
 	text-align: center;
-    background-color: rgba(208, 151, 27, 0.3);
     color: rgba(72, 114, 240, 1);
     margin-top: -35px;
 
@@ -39,9 +38,10 @@ body {
 }
 
 #carousel {
-    margin-left: 17.25%;
+    
 
 }
+
 
 img {
     height:auto; 
