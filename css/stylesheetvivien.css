@@ -5,7 +5,7 @@ h1 {
 	font-family: 'Chewy', cursive;
 	font-size: 70px;
 	text-align: center;
-    color: rgba(72, 114, 240, 1);
+    color: rgba(72, 114, 240, 0.6);
     margin-top: -35px;
 
 
@@ -22,7 +22,7 @@ head {
 }
 
 body {
-    background-image: url(../img/background_snow.png);
+    background-image: url(../img/background.png);
 
 }
 
@@ -55,7 +55,7 @@ img {
 #volet , #volet_1 , #volet_2{
     width: 93%;
     padding: 10px;
-    background: rgba(28, 207, 36, 0.2); color: #fff; 
+    background: rgba(28, 207, 36, 0.9); color: #fff; 
     margin-top: 1%  
 }
 
