@@ -1,9 +1,12 @@
 #carousel-example-generic{
-margin: 0 auto;
-width: 80%;
-
+	margin: 0 auto;
+	width: 80%;
 
 }
 #accordion{
 	margin-top: 100px;
+}
+
+#nav{
+	margin-left: 90px;
 }
