@@ -7,13 +7,16 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
+    <title><%= current_page.data.title || "Les Contrats Bleus" %></title>
     
-    <%= stylesheet_link_tag "normalize", "all" %>
+    <%= stylesheet_link_tag "bootstrap.min.css", "stylesheet.css", "http://fonts.googleapis.com/css?family=Chewy" %>
     <%= javascript_include_tag  "all" %>
   </head>
   
   <body class="<%= page_classes %>">
+
     <%= yield %>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
