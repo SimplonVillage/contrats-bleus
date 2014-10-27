@@ -85,5 +85,17 @@ animation-direction: alternate;
 }
 
 
+<<<<<<< HEAD
 
 
+=======
+* {
+    box-sizing: border-box;
+}
+#logo
+{
+    height: 80px;
+    width: 160px;
+    
+}
+>>>>>>> 3d9a48cbbf103ca4114b0b38551127f7e4507660
