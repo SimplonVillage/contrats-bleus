@@ -20,6 +20,9 @@ body {
 	margin: 0 auto;
 	width: 50%;
 }
+#headcolorac{
+	background-color: #18C470;
+}
 #accordion{
 	margin-top: 70px;
 }
