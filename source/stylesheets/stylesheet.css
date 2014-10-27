@@ -10,3 +10,74 @@ body {
 #accordion{
 	margin-top: 70px;
 }
+
+.label-danger {
+    background-color: #EE1B59;
+    display:block;
+}
+
+.label-warning {
+    background-color: #EE6900;
+    display:block;
+}
+
+.label-succes {
+    background-color: #40C915;
+    display:block;
+    font-size: 20px;
+}
+.label {
+    display: inline-block;
+    padding: 5% 9% 5%;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    color: #FFF;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 1em;
+    margin-top: 5px;
+    margin-left: 10px;
+    -webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+
+.label:hover, .label:focus, .label:active {
+-webkit-transform: translateY(10px);
+transform: translateY(10px);
+-webkit-animation-name: hang;
+animation-name: hang;
+-webkit-animation-duration: 1.5s;
+animation-duration: 1.5s;
+-webkit-animation-delay: 0.3s;
+animation-delay: 0.3s;
+-webkit-animation-timing-function: linear;
+animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+-webkit-animation-direction: alternate;
+animation-direction: alternate;
+}
+
+
+<<<<<<< HEAD
+
+
+=======
+* {
+    box-sizing: border-box;
+}
+#logo
+{
+    height: 80px;
+    width: 160px;
+    
+}
+>>>>>>> 3d9a48cbbf103ca4114b0b38551127f7e4507660
