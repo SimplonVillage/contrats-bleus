@@ -1,24 +1,8 @@
 body {
 	    background-color:  #F0F0F0;
 }
-#nav{
-	margin-left: 90px;
-}
+#carousel-example-generic{
 
-#txthead h2 {
-	text-align: center;
-	color: rgba(72, 114, 240, 0.6);
-	font-size: 70px;
-	margin-top: 100px;
-	font-family: 'Chewy', cursive;
-}
-#headcaro{
-	margin-top: 70px;
-
-}
-#my_carousel{
-	margin: 0 auto;
-	width: 50%;
 }
 #headcolorac{
 	background-color: #18C470;
@@ -82,11 +66,6 @@ animation-iteration-count: infinite;
 animation-direction: alternate;
 }
 
-
-<<<<<<< HEAD
-
-
-=======
 * {
     box-sizing: border-box;
 }
@@ -96,4 +75,4 @@ animation-direction: alternate;
     width: 160px;
     
 }
->>>>>>> 3d9a48cbbf103ca4114b0b38551127f7e4507660
+
