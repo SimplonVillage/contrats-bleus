@@ -26,3 +26,39 @@ body {
 #accordion{
 	margin-top: 70px;
 }
+
+.label-danger {
+    background-color: #EE1B59;
+    display:block;
+}
+
+.label-warning {
+    background-color: #EE6900;
+    display:block;
+}
+
+.label-succes {
+    background-color: #40C915;
+    display:block;
+    font-size: 20px;
+}
+.label {
+    display: inline-block;
+    padding: 5% 9% 5%;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    color: #FFF;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 1em;
+    margin-top: 5px;
+    margin-left: 2px;
+
+}
+
+
+* {
+    box-sizing: border-box;
+}
