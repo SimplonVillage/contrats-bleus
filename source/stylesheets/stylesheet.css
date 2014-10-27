@@ -1,6 +1,10 @@
 body {
 	    background-color:  #F0F0F0;
 }
+#nav{
+	margin-left: 90px;
+}
+
 #txthead h2 {
 	text-align: center;
 	color: rgba(72, 114, 240, 0.6);
@@ -9,17 +13,13 @@ body {
 	font-family: 'Chewy', cursive;
 }
 #headcaro{
-	margin-top: 100px;
+	margin-top: 70px;
+
 }
-#carousel-example-generic{
+#my_carousel{
 	margin: 0 auto;
 	width: 50%;
-
 }
 #accordion{
 	margin-top: 70px;
-}
-
-#nav{
-	margin-left: 90px;
 }
