@@ -1,6 +1,12 @@
 body {
 	    background-color:  #F0F0F0;
 }
+
+@font-face {
+    font-family: 'gravity';
+    src: url('../fonts/gravity.ttf');
+}
+
 #carousel-example-generic{
 
 }
@@ -9,6 +15,28 @@ body {
 }
 #accordion{
 	margin-top: 70px;
+}
+
+#infos {
+    font-family: 'gravity';
+    
+}
+
+#paragraphes {
+    text-align: left;
+    font-family: 'gravity';
+}
+
+#paragraphe1 {
+    background-color:rgba(238,27,89,0.5);
+}
+
+#paragraphe2 {
+    background-color: rgba(238,105,0,0.5);
+}
+
+#paragraphe3 {
+    background-color: rgba(64,201,21,0.5);
 }
 
 .label-danger {
@@ -75,4 +103,6 @@ animation-direction: alternate;
     width: 160px;
     
 }
+
+
 
