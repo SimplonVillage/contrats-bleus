@@ -24,6 +24,7 @@ h5 {
 }
 #carousel-example-generic{
     
+    width: 60%
 }
 #headcolorac{
 	background-color: #18C470;
@@ -113,10 +114,11 @@ animation-direction: alternate;
 * {
     box-sizing: border-box;
 }
+
 #logo
 {
-    height: 80px;
-    width: 160px;
+    height: 80%;
+    width: 160%;
     
 }
 
