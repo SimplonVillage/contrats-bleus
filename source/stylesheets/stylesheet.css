@@ -97,10 +97,11 @@ animation-direction: alternate;
 * {
     box-sizing: border-box;
 }
+
 #logo
 {
-    height: 80px;
-    width: 160px;
+    height: 150%;
+    width: 600%;
     
 }
 
