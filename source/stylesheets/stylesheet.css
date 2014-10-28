@@ -1,6 +1,12 @@
 body {
 	    background-color:  #F0F0F0;
 }
+
+@font-face {
+    font-family: 'gravity';
+    src: url('../fonts/gravity.ttf');
+}
+
 #carousel-example-generic{
 
 }
@@ -9,6 +15,28 @@ body {
 }
 #accordion{
 	margin-top: 70px;
+}
+
+#infos {
+    font-family: 'gravity';
+    
+}
+
+#paragraphes {
+    text-align: left;
+    font-family: 'gravity';
+}
+
+#paragraphe1 {
+    background-color:rgba(238,27,89,0.5);
+}
+
+#paragraphe2 {
+    background-color: rgba(238,105,0,0.5);
+}
+
+#paragraphe3 {
+    background-color: rgba(64,201,21,0.5);
 }
 
 .label-danger {
@@ -28,7 +56,7 @@ body {
 }
 .label {
     display: inline-block;
-    padding: 5% 9% 5%;
+    padding: 3% 9% 5%;
     font-size: 20px;
     font-weight: 700;
     line-height: 1;
@@ -37,8 +65,8 @@ body {
     white-space: nowrap;
     vertical-align: baseline;
     border-radius: 1em;
-    margin-top: 5px;
-    margin-left: 10px;
+    margin-top: 10px;
+    margin-left: 17px;
     -webkit-transition-duration: 0.5s;
 	transition-duration: 0.5s;
 	-webkit-transition-property: transform;
@@ -66,11 +94,6 @@ animation-iteration-count: infinite;
 animation-direction: alternate;
 }
 
-
-<<<<<<< HEAD
-
-
-=======
 * {
     box-sizing: border-box;
 }
@@ -80,4 +103,6 @@ animation-direction: alternate;
     width: 160px;
     
 }
->>>>>>> 3d9a48cbbf103ca4114b0b38551127f7e4507660
+
+
+
