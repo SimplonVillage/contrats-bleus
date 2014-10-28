@@ -9,13 +9,12 @@ body {
 
 #carousel-example-generic{
 
-
+}
 #headcolorac{
 	background-color: #18C470;
 }
-
 #accordion{
-    margin-top: 70px;
+	margin-top: 70px;
 }
 
 #infos {
@@ -70,12 +69,12 @@ body {
     margin-top: 10px;
     margin-left: 17px;
     -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	transition-duration: 0.5s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 
 
@@ -99,12 +98,12 @@ animation-direction: alternate;
 * {
     box-sizing: border-box;
 }
-
 #logo
 {
-    height: 150%;
-    width: 600%;
+    height: 80px;
+    width: 160px;
     
 }
+
 
 
