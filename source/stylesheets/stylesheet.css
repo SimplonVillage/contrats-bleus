@@ -11,9 +11,17 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    text-align: center;
+}
+
 h5 {
     text-align: center;
     margin-bottom: 5%;
+}
+
+.greyblock {
+    background-color: rgba(133, 137, 138, 0.1);
 }
 
 .mail {
@@ -41,6 +49,8 @@ h5 {
 #paragraphes {
     text-align: left;
     font-family: 'gravity';
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #paragraphe1 {
