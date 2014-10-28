@@ -6,9 +6,10 @@ body {
     font-family: 'gravity';
     src: url('../fonts/gravity.ttf');
 }
-
+#navbar-brand img {
+}
 #carousel-example-generic{
-
+    
 }
 #headcolorac{
 	background-color: #18C470;
