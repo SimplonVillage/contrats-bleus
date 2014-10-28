@@ -99,6 +99,11 @@ animation-direction: alternate;
     box-sizing: border-box;
 }
 
-
+#logo
+{
+    height: 150%;
+    width: 600%;
+    
+}
 
 
