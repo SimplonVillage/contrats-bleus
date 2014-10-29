@@ -66,6 +66,10 @@ h5 {
     font-family: 'gravity';
     
 }
+#presentation {
+    padding: 2% ;
+    margin-top: 3%;
+}
 
 #paragraphes {
     
@@ -161,7 +165,7 @@ animation-direction: alternate;
 
 .logo{
 
-    padding-bottom:  ;
+    padding-bottom: 1% ;
     height: 80%;
     width: 160%;
     
