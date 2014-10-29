@@ -32,6 +32,11 @@ h5 {
     margin-bottom: 5%;
 }
 
+
+#historique {
+    text-align: center;
+}
+
 .content {
 
     position: relative;
@@ -182,7 +187,8 @@ animation-direction: alternate;
 
     background: rgba(0, 0, 0, 0.1);
     text-align: center;
-    padding-top: 5px; 
+    padding-top: 5px;
+
 }
 
 .ressource
