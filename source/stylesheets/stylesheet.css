@@ -7,6 +7,10 @@ body {
     src: url('../fonts/gravity.ttf');
 }
 
+h2 {
+    text-align: center; 
+}
+
 h3 {
     text-align: center;
 }
@@ -18,6 +22,15 @@ h4 {
 h5 {
     text-align: center;
     margin-bottom: 5%;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 1);
+
+}
+
+.row {
+    margin-top: 20px;
 }
 
 .greyblock {
@@ -37,9 +50,6 @@ h5 {
 
 #headcolorac{
 	background-color: #18C470;
-}
-#accordion{
-	margin-top: 70px;
 }
 
 #infos {
@@ -93,7 +103,7 @@ h5 {
     white-space: nowrap;
     vertical-align: baseline;
     border-radius: 1em;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 17px;
     -webkit-transition-duration: 0.5s;
 	transition-duration: 0.5s;
