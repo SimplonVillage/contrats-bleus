@@ -162,10 +162,11 @@ animation-direction: alternate;
     margin: 50px 50px 50px 50px;
 
 }
-.boxcontact{
-text-align: center;
-input,textarea{
-width: 100%;
+.boxcontact
+{
+    text-align: center;
+   /* input, textarea; */
+    width: 100%;
 }
 }
 #bande_horizontale{
@@ -210,10 +211,12 @@ border-radius: 5px;
 text-decoration: blink;
 text-align: center;
 margin:auto;
+}
+
 p {
 color: #7E8080;
 }
-}
+
 #boxenvoyer{
 text-align: center;
 margin: 5px 0px 5px 0px;
@@ -221,11 +224,11 @@ border-radius: 5px;
 }
 #adresse{
 text-align: center;
-font-family: Lora;
 font-size: 120%;
 margin-bottom: 40px;
+}
 
 #formulaire {
     text-align: center;
-    
+
 }
