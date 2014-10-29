@@ -7,6 +7,14 @@ body {
     src: url('../fonts/gravity.ttf');
 }
 
+
+#bouton   {
+   background-image: none;
+   background-repeat: none;
+   background-color: #0d84f3;
+   color: white;
+} 
+
 h2 {
     text-align: center; 
 }
@@ -161,9 +169,8 @@ animation-direction: alternate;
 
 .logo{
 
-    padding-bottom:  ;
-    height: 80%;
-    width: 160%;
+    height: 150%;
+    width: 50%;
     
 }
 
