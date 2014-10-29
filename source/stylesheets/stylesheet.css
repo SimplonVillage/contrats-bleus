@@ -160,3 +160,79 @@ animation-direction: alternate;
     text-align: center;
     padding-top: 5px; 
 }
+
+.ressource
+{
+    margin: 50px 50px 50px 50px;
+
+}
+.boxcontact
+{
+    text-align: center;
+   /* input, textarea; */
+    width: 100%;
+}
+}
+#bande_horizontale{
+padding: 0px;
+margin-right: 80px;
+margin-left: 80px;
+margin-bottom: 25px;
+border: none;
+width: auto;
+height: 1px;
+background-color: red;
+}
+#marg{
+margin-bottom: -15px;
+}
+#boxnom{
+text-align: center;
+margin-bottom: 5px;
+border-radius: 5px;
+}
+#boxprenom{
+text-align: center;
+margin-bottom: 5px;
+border-radius: 5px;
+}
+#boxmail{
+text-align: center;
+margin-bottom: 5px;
+border-radius: 5px;
+}
+#boxphone{
+text-align: center;
+margin-bottom: 5px;
+border-radius: 5px;
+}
+#boxmessage{
+text-align: center;
+margin-bottom: 5px;
+border-radius: 5px;
+}
+#mentions{
+text-decoration: blink;
+text-align: center;
+margin:auto;
+}
+
+p {
+color: #7E8080;
+}
+
+#boxenvoyer{
+text-align: center;
+margin: 5px 0px 5px 0px;
+border-radius: 5px;
+}
+#adresse{
+text-align: center;
+font-size: 120%;
+margin-bottom: 40px;
+}
+
+#formulaire {
+    text-align: center;
+
+}
