@@ -42,6 +42,9 @@ h5 {
 .greyblock {
     background-color: rgba(133, 137, 138, 0.1);
     border-radius: 10px;
+    padding: 4%;
+    margin-top: 2%;
+   box-shadow: 2px 2px 8px #C1C1C1 inset;
 }
 
 .mail {
@@ -177,11 +180,10 @@ animation-direction: alternate;
     margin: 50px 50px 50px 50px;
 
 }
-.boxcontact
-{
-    text-align: center;
-   /* input, textarea; */
-    width: 100%;
+.boxcontact{
+text-align: center;
+input,textarea{
+width: 100%;
 }
 }
 #bande_horizontale{
@@ -225,21 +227,26 @@ border-radius: 5px;
 #mentions{
 text-decoration: blink;
 text-align: center;
-margin:auto;
-}
+margin:auto;}
 
+<<<<<<< HEAD
+=======
+}
+>>>>>>> 3d3cd0572a492e85a6c515b677c15eceb98c45e6
 #boxenvoyer{
 text-align: center;
 margin: 5px 0px 5px 0px;
 border-radius: 5px;
 }
+
 #adresse{
 text-align: center;
+font-family: ;
 font-size: 120%;
 margin-bottom: 40px;
 }
 
+
 #formulaire {
     text-align: center;
-
 }
