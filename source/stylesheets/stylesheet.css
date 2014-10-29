@@ -58,6 +58,7 @@ h5 {
 }
 
 #paragraphes {
+    
     text-align: left;
     font-family: 'gravity';
     margin-left: 20px;
@@ -65,14 +66,23 @@ h5 {
 }
 
 #paragraphe1 {
+
+    padding-left:1%; 
+    padding-right: 1%;
     background-color:rgba(238,27,89,0.5);
 }
 
 #paragraphe2 {
+
+    padding-left:1%; 
+    padding-right: 1%;
     background-color: rgba(238,105,0,0.5);
 }
 
 #paragraphe3 {
+
+    padding-left:1%; 
+    padding-right: 1%;
     background-color: rgba(64,201,21,0.5);
 }
 
