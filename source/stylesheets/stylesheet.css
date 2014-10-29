@@ -24,6 +24,17 @@ h5 {
     margin-bottom: 5%;
 }
 
+.content {
+
+    position: relative;
+
+}
+
+#plan {
+
+    
+}
+
 .row {
     margin-top: 20px;
 }
@@ -57,29 +68,32 @@ h5 {
     
     text-align: left;
     font-family: 'gravity';
-    margin-left: 20px;
-    margin-right: 20px;
+    
+    
 }
 
 #paragraphe1 {
 
-    padding-left:1%; 
-    padding-right: 1%;
     background-color:rgba(238,27,89,0.5);
+    padding: 1% ;
+    margin-top: 1% ;
 }
 
 #paragraphe2 {
 
-    padding-left:1%; 
-    padding-right: 1%;
     background-color: rgba(238,105,0,0.5);
+    padding :2%;
 }
 
 #paragraphe3 {
 
-    padding-left:1%; 
-    padding-right: 1%;
     background-color: rgba(64,201,21,0.5);
+    padding : 2%;
+}
+
+#paragraphe1 , #paragraphe2 , #paragraphe3{
+
+    
 }
 
 .label-danger {
@@ -142,8 +156,9 @@ animation-direction: alternate;
     box-sizing: border-box;
 }
 
-#logo
-{
+.logo{
+
+    padding-bottom:  ;
     height: 80%;
     width: 160%;
     
@@ -209,19 +224,23 @@ border-radius: 5px;
 #mentions{
 text-decoration: blink;
 text-align: center;
-margin:auto;
-p {
-color: #7E8080;
-}
+margin:auto;}
+
 }
 #boxenvoyer{
 text-align: center;
 margin: 5px 0px 5px 0px;
 border-radius: 5px;
 }
+
 #adresse{
 text-align: center;
 font-family: ;
 font-size: 120%;
 margin-bottom: 40px;
+}
+
+
+#formulaire {
+    text-align: center;
 }
