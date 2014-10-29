@@ -32,6 +32,12 @@ h5 {
     margin-bottom: 5%;
 }
 
+
+#historique {
+    text-align: center;
+    margin-top: 10%;
+}
+
 .content {
 
     position: relative;
@@ -174,9 +180,10 @@ animation-direction: alternate;
     box-sizing: border-box;
 }
 
-.logo{
-    height: 150%;
-    width: 50%;
+#logo{
+    width: 100%;
+    height: 30px;
+    margin-top: -4px;
 }
 
 
@@ -184,7 +191,8 @@ animation-direction: alternate;
 
     background: rgba(0, 0, 0, 0.1);
     text-align: center;
-    padding-top: 5px; 
+    padding-top: 5px;
+
 }
 
 .ressource
