@@ -8,7 +8,7 @@ footer {
     bottom: 0;
     position: fixed;
     text-align: center;
-    background-color: rgba(165, 202, 230, 0.5);
+    background-color: white;
 
 }
 
@@ -82,8 +82,11 @@ h5 {
 #carousel-example-generic{
     margin top: 10%;
 
+}
 
-    
+.test{
+
+    margin-top: 5%;
 }
 
 #headcolorac{
@@ -95,8 +98,11 @@ h5 {
     
 }
 #presentation {
+
     padding: 2% ;
     margin-top: 3%;
+    font-family: 'gravity';
+
 }
 
 #paragraphes {
@@ -127,10 +133,6 @@ h5 {
     padding : 2%;
 }
 
-#paragraphe1 , #paragraphe2 , #paragraphe3{
-
-    
-}
 
 .label-danger {
     background-color: #ED1970;
@@ -167,7 +169,7 @@ h5 {
 	transition-property: transform;
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -201,6 +203,7 @@ animation-direction: alternate;
 .ressource
 {
     margin: 50px 50px 50px 50px;
+    font-size: 16px;
 
 }
 .boxcontact{
@@ -220,7 +223,7 @@ margin-bottom: 25px;
 border: none;
 width: auto;
 height: 1px;
-background-color: red;
+background-color: rgba(169, 203, 215, 08);
 }
 #marg{
 margin-bottom: -15px;
