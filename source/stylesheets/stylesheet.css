@@ -198,10 +198,13 @@ animation-direction: alternate;
 }
 .boxcontact{
 text-align: center;
-input,textarea{
-width: 100%;
 }
+.zone
+{
+    height: 200px;
+    width: 40%;
 }
+
 #bande_horizontale{
 padding: 0px;
 margin-right: 80px;
@@ -239,6 +242,7 @@ border-radius: 5px;
 text-align: center;
 margin-bottom: 5px;
 border-radius: 5px;
+
 }
 #mentions{
 text-decoration: blink;
