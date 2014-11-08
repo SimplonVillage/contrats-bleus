@@ -81,9 +81,14 @@ h5 {
 
 #carousel-example-generic{
     margin top: 10%;
+    
+}
+.carousel-inner{
+    width:auto;
+    max-height: 300px;
+    
 
 }
-
 .test{
 
     margin-top: 5%;
