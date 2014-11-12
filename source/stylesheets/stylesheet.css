@@ -78,7 +78,9 @@ h5 {
     margin-top: 2%;
    box-shadow: 2px 2px 8px #C1C1C1 inset;
 }
-
+#adresse {
+    margin-left: 2%;
+}
 .mail {
     
 }
@@ -244,7 +246,7 @@ animation-direction: alternate;
 
 .ressource
 {
-    margin: 50px 50px 50px;
+    margin: 7% 9% 1%;
     font-size: 16px;
 
 }
@@ -252,6 +254,7 @@ animation-direction: alternate;
 #doc {
     margin-top: 10px;
     font-size: 16px;
+    margin-left: 5%;
 }
 
 .boxcontact{
@@ -324,4 +327,8 @@ margin-bottom: 40px;
 
 #formulaire {
     text-align: center;
+}
+
+i{
+    margin-top: 15% ;
 }
