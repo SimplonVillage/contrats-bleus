@@ -25,13 +25,20 @@ footer {
    color: white;
 } 
 
+h1 {
+
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 h2 {
     text-align: center; 
 }
 
 h3 {
-    text-align: center;
+    text-align: left;
     margin-top: 6%;
+    margin-bottom: 6%;
 }
 
 h4 {
@@ -45,8 +52,8 @@ h5 {
 
 
 #historique {
-    text-align: center;
-    margin-top: 10%;
+    text-align: left;
+    margin-top: 1%;
 }
 
 .content {
@@ -107,6 +114,7 @@ h5 {
     padding: 2% ;
     margin-top: 3%;
     font-family: 'gravity';
+    font-size: 16px;
 
 }
 
@@ -115,8 +123,6 @@ h5 {
     text-align: left;
     font-family: 'gravity';
     font-size: 18px;
-    
-    
 }
 
 #paragraphe1 {
@@ -124,18 +130,27 @@ h5 {
     padding: 1% ;
     margin-top: 1% ;
     padding-top: 40px;
+    padding-left: 12%;
+    padding-right: 12%;
+    width: 100%;
 }
 
 #paragraphe2 {
     background-color: rgba(238,105,0,0.5);
     padding :2%;
     padding-top: 40px;
+    padding-left: 12%;
+    padding-right: 12%;
+    width: 100%;
 }
 
 #paragraphe3 {
     background-color: rgba(64,201,21,0.5);
     padding : 2%;
     padding-top: 40px;
+    padding-left: 12%;
+    padding-right: 12%;
+    width: 100%;
 }
 
 #icones {
@@ -229,10 +244,16 @@ animation-direction: alternate;
 
 .ressource
 {
-    margin: 50px 50px 50px 50px;
+    margin: 50px 50px 50px;
     font-size: 16px;
 
 }
+
+#doc {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
 .boxcontact{
 text-align: center;
 }
