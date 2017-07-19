@@ -1,0 +1,386 @@
+body {
+	    background-color:  #F0F0F0;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    background-color: white;
+
+}
+
+@font-face {
+    font-family: 'gravity';
+    src: url('../fonts/gravity.ttf');
+}
+
+@font-face {
+	font-family: 'dinausaur';
+	src: url('../fonts/dinausaur.ttf');
+}
+
+@font-face {
+	font-family: 'crumble';
+	src: url('../fonts/crumble.ttf');
+}
+
+
+#bouton   {
+   background-image: none;
+   background-repeat: none;
+   background-color: #0d84f3;
+   color: white;
+}
+
+h1 {
+	font-size: 80px;
+	font-family: 'crumble';
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+
+    text-align: center;
+}
+
+h3 {
+
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'dinausaur';
+    text-align: left;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+h5 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+#historique {
+    text-align: left;
+    margin-top: 1%;
+}
+
+.content {
+
+    position: relative;
+
+}
+
+#plan {
+
+
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.greyblock {
+    background-color: rgba(133, 137, 138, 0.1);
+    border-radius: 10px;
+    padding: 4%;
+    margin-top: 2%;
+   box-shadow: 2px 2px 8px #C1C1C1 inset;
+}
+#adresse {
+    margin-left: 2%;
+}
+.mail {
+
+}
+
+#navbar-brand img {
+}
+
+#carousel-example-generic{
+    margin top: 10%;
+
+}
+.carousel-inner{
+    width:auto;
+    max-height: 300px;
+
+
+}
+.test{
+
+    margin-top: 5%;
+}
+
+#headcolorac{
+	background-color: #18C470;
+}
+
+#infos {
+    font-family: 'gravity';
+
+}
+#presentation {
+
+    padding: 2% ;
+    margin-top: 3%;
+    font-family: 'gravity';
+    font-size: 16px;
+
+}
+
+#paragraphes {
+
+    text-align: left;
+    font-family: 'gravity';
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+#paragraphe1 {
+    background-color:rgba(238,27,89,0.5);
+    padding: 1% ;
+    margin-top: 1% ;
+    padding-top: 40px;
+    padding-left: 12%;
+    padding-right: 12%;
+    width: 100%;
+}
+
+#paragraphe2 {
+    background-color: rgba(238,105,0,0.5);
+    padding :2%;
+    padding-top: 40px;
+    padding-left: 12%;
+    padding-right: 12%;
+    width: 100%;
+}
+
+#paragraphe3 {
+    background-color: rgba(64,201,21,0.5);
+    padding : 2%;
+    padding-top: 40px;
+    padding-left: 12%;
+    padding-right: 12%;
+    width: 100%;
+}
+
+#paragraphe4 {
+    background-color: rgba(149,0,255,0.5);
+    padding : 2%;
+    padding-top: 40px;
+    padding-left: 12%;
+    padding-right: 12%;
+    width: 100%;
+}
+
+#icones {
+
+    margin-left: 11%;
+}
+
+.label-danger {
+    background-color: #ED1970;
+    display:block;
+}
+a.label-danger[href]:hover {
+    background-color: #ED1970;
+}
+
+.label-warning {
+    background-color: #FF5723;
+    display:block;
+}
+a.label-warning[href]:hover {
+    background-color: #FF5723;
+}
+
+.label-succes {
+    background-color: #379103;
+    display:block;
+    font-size: 20px;
+}
+a.label-succes[href]:hover {
+    background-color: #379103;
+}
+
+.label-family {
+    background-color: #9500FF;
+    display:block;
+    font-size: 20px;
+}
+a.label-family[href]:hover {
+    background-color: #9500FF;
+}
+.label {
+    display: inline-block;
+    /*padding: 5% 15% 5%;*/
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    color: #FFF;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 1em;
+    /*margin-top: 4%;*/
+    /*margin-left: 25%;*/
+    -webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.label img {
+    max-height: 110px;
+    margin: 15px 0 10px 0;
+}
+
+.label span {
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+.label:hover, .label:focus, .label:active {
+-webkit-transform: translateY(10px);
+transform: translateY(10px);
+-webkit-animation-name: hang;
+animation-name: hang;
+-webkit-animation-duration: 1.5s;
+animation-duration: 1.5s;
+-webkit-animation-delay: 0.3s;
+animation-delay: 0.3s;
+-webkit-animation-timing-function: linear;
+animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+-webkit-animation-direction: alternate;
+animation-direction: alternate;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#logo{
+    width: 100%;
+    height: 30px;
+    margin-top: -4px;
+}
+
+.ressource
+{
+
+    margin: 7% 9% 1%;
+    font-size: 16px;
+
+}
+
+#organigramme {
+
+	height: 100%;
+	width: 100%;
+}
+
+#doc {
+    margin-top: 10px;
+    font-size: 16px;
+    margin-left: 5%;
+}
+
+.boxcontact{
+text-align: center;
+}
+.zone
+{
+    height: 200px;
+    width: 40%;
+}
+
+#bande_horizontale{
+padding: 0px;
+margin-right: 80px;
+margin-left: 80px;
+margin-bottom: 25px;
+border: none;
+width: auto;
+height: 1px;
+background-color: rgba(169, 203, 215, 08);
+}
+#marg{
+margin-bottom: -15px;
+}
+#boxnom{
+text-align: center;
+margin-bottom: 5px;
+border-radius: 5px;
+}
+#boxprenom{
+text-align: center;
+margin-bottom: 5px;
+border-radius: 5px;
+}
+#boxmail{
+text-align: center;
+margin-bottom: 5px;
+border-radius: 5px;
+}
+#boxphone{
+text-align: center;
+margin-bottom: 5px;
+border-radius: 5px;
+}
+#boxmessage{
+text-align: center;
+margin-bottom: 5px;
+border-radius: 5px;
+
+}
+#mentions{
+text-decoration: blink;
+text-align: center;
+margin:auto;}
+
+
+#boxenvoyer{
+text-align: center;
+margin: center;
+border-radius: 5px;
+}
+
+#adresse{
+text-align: center;
+font-family: ;
+font-size: 120%;
+margin-bottom: 40px;
+}
+
+
+#formulaire {
+    text-align: center;
+}
+
+#titreinfo{
+    margin-top: 10% ;
+}
+
+#mailfalse {
+
+    color: blue;
+}
+
+#fo{
+    margin-top: 14.5%;
+}
